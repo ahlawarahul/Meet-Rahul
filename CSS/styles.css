@@ -47,14 +47,14 @@ a:visited {
   ;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1058px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1058px) {
   .nav-item .navbar_itemx {
     padding-left: 1rem;
   }

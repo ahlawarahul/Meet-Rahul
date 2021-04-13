@@ -3,10 +3,10 @@
 }
 
 /*! ----- Title  ------ */
-.title_section {
+.exp_page_title {
   background-color: #faf3e0;
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding-top: 8%;
+  padding-bottom: 3%;
 }
 
 .career_top_div {
@@ -128,8 +128,8 @@
 
 @media screen and (max-width: 1058px) {
 
-  .title_section {
-    padding: 4% 2% 5% 2%;
+  .exp_page_title {
+    padding: 11% 2% 4% 2%;
   }
 
   .h3_type3 {
@@ -155,8 +155,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  .title_section {
-    padding: 6% 2% 5% 2%;
+  .exp_page_title {
+    padding: 14% 2% 4% 2%;
   }
 
   .exp_header_div, .career_body_div {
@@ -192,14 +192,14 @@
 }
 
 @media screen and (max-width: 558px) {
-  .title_section {
-    padding: 12% 2% 5% 2%;
+  .exp_page_title {
+    padding: 18% 1% 5% 1%;
   }
 }
 
   @media mobile and (max-width:500px) {
-    .title_section {
-      padding: 20% 2% 5% 2%;
+    .exp_page_title {
+      padding: 23% 1% 5% 1%;
     }
 }
 
