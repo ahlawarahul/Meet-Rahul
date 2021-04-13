@@ -127,6 +127,11 @@
 }
 
 @media screen and (max-width: 1058px) {
+
+  .title_section {
+    padding: 4% 2% 5% 2%;
+  }
+
   .h3_type3 {
     font-size: 1.5rem;
   }
@@ -190,6 +195,12 @@
   .title_section {
     padding: 12% 2% 5% 2%;
   }
+}
+
+  @media mobile and (max-width:500px) {
+    .title_section {
+      padding: 20% 2% 5% 2%;
+    }
 }
 
 /*! ----- Skills Section  ------ */
@@ -322,7 +333,7 @@
   padding: 3% 0 2% 0;
   position: relative;
   text-align: center;
-  background-color: #FFD966;
+  background-color: #00BAC8;
   width: 40%;
 }
 
@@ -344,8 +355,12 @@
   width: 80px;
 }
 
+.cert_link {
+  color: #D6F6F0;
+}
+
 .cert_link:hover {
-  color: #00BAC8;
+  color: #faf3e0  ;
 }
 
 .azure_cert {
