@@ -30,16 +30,9 @@ a:visited {
   padding-left: 20%;
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-}
-
 .navbarx_body .navbar-toggler {
   color: #FFD966;
-  border-color: #FFD966;
+  border: solid 2px #FFD966;
 }
 
 .navbarx_body .navbar-toggler-icon {
@@ -50,13 +43,29 @@ a:visited {
   color: #FFD966;
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
-  font-size: 18;
+  font-size: 1rem;;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
 
 @media (max-width: 992px) {
   .nav-item .navbar_itemx {
     padding-left: 1rem;
   }
+
+  .navbarx_body {
+    padding: 2% 1.5% 2% 0;
+  }
+
+  .navbar_itemx {
+    font-size: 1.3rem;;
+  }
+
 }
 
 /*! ----- Title Page Main Section  ------ */
@@ -445,7 +454,6 @@ a:visited {
 
 @media screen and (min-width: 1058px) and (max-width:1180px) {
   .tenets_image {
-
     width: 400px;
     max-height: auto;
     margin: auto;
@@ -455,7 +463,6 @@ a:visited {
 
 @media screen and (max-width: 1058px) {
   .tenets_image {
-
     max-width: 250px;
     max-height: auto;
     margin: auto;
@@ -490,7 +497,6 @@ a:visited {
   }
 
   .tenets_image {
-
     max-width: 150px;
     max-height: auto;
     margin: auto auto 2% auto;
@@ -1072,8 +1078,6 @@ a:visited {
   color: #FFD966;
   box-shadow: 0 0 20px #D6F6F0;
 }
-
-
 
 .contact_bottom_div {
   background-color: #00587A;
