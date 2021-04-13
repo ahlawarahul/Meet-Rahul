@@ -44,7 +44,10 @@ a:visited {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  ;
+}
+
+.navbar_itemx:hover {
+  color: #D6F6F0;
 }
 
 @media (min-width: 1058px) {
@@ -350,7 +353,7 @@ a:visited {
 .largescreenviewonly {
   position: relative;
   top: 40px;
-  right: 15px;
+  right: 60px;
 }
 .smallscreenviewonly {
   display: none;
