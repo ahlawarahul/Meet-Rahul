@@ -110,11 +110,11 @@
 .exp_icon_loc, .exp_icon_link {
   display: inline;
   color: #00BAC8;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .exp_icon_loc {
- padding: 0 2.5px 0 1px;
+  padding: 0 2.5px 0 1px;
 }
 
 .exp_bottom_p_text {
@@ -141,11 +141,11 @@
   }
 
   .exp_left_p_text, .exp_right_p_text {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .exp_bottom_p_text {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -168,7 +168,7 @@
   }
 
   .exp_left_p_text, .exp_right_p_text {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   .career_deloitte_img {
@@ -181,8 +181,14 @@
     max-height: auto;
   }
 
-  .career_rank_edu_school{
+  .career_rank_edu_school {
     margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .title_section {
+    padding: 12% 2% 5% 2%;
   }
 }
 
@@ -229,7 +235,7 @@
   width: 40%;
   font-size: 1.4rem;
   position: relative;
-  bottom:3px;
+  bottom: 3px;
 }
 
 .skills_item_p_text {
@@ -279,6 +285,7 @@
     margin: 1% 1% 1% 1%;
     font-size: 0.9rem;
   }
+
   .exp_hr_mod {
     right: 2%;
   }
@@ -286,9 +293,11 @@
   .exp_subheader {
     margin: 7% 0 7% 0;
   }
+
+  .skills_item_p_text {
+    font-size: 1.2rem;
+  }
 }
-
-
 
 .skills_technical_div {
   text-align: left;
@@ -296,14 +305,13 @@
   color: #595959;
 }
 
-.skills_tools_div{
+.skills_tools_div {
   text-align: left;
   margin: 0 5% 2% 5%;
   color: #595959;
 }
 
 /*! ----- Certifications Part  ------ */
-
 .cert_row {
   margin: 2% 0 0.5% 0;
   text-align: center;
@@ -312,9 +320,9 @@
 .cert_item {
   margin: 1% 2.3% 1% 2.3%;
   padding: 3% 0 2% 0;
-  position:relative;
+  position: relative;
   text-align: center;
-  background-color: #D6F6F0;
+  background-color: #FFD966;
   width: 40%;
 }
 
@@ -336,7 +344,7 @@
   width: 80px;
 }
 
-.cert_link:hover{
+.cert_link:hover {
   color: #00BAC8;
 }
 
@@ -344,13 +352,11 @@
   width: 1000px;
   height: auto;
   text-align: center;
-  margin:auto;
+  margin: auto;
   pointer-events: none;
 }
 
-
 /*! ----- Education Section  ------ */
-
 .education_IU_img {
   margin: 2% 0 2% 0;
   max-width: 60px;
@@ -382,7 +388,6 @@
     width: 90%;
     padding
   }
-
 }
 
 /*! ----- Languages Section  ------ */
@@ -392,11 +397,11 @@
   padding-bottom: 4%;
 }
 
-.languages_div{
+.languages_div {
   margin: 4% auto auto auto;
 }
 
-.lang_item_left{
+.lang_item_left {
   width: 55%;
   position: relative;
   top: 0;
