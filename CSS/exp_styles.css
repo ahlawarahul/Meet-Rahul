@@ -129,7 +129,7 @@
 @media screen and (max-width: 1058px) {
 
   .exp_page_title {
-    padding: 11% 2% 4% 2%;
+    padding: 13% 2% 4% 2%;
   }
 
   .h3_type3 {
@@ -156,7 +156,7 @@
 
 @media screen and (max-width: 767px) {
   .exp_page_title {
-    padding: 14% 2% 4% 2%;
+    padding: 16% 2% 4% 2%;
   }
 
   .exp_header_div, .career_body_div {
@@ -193,13 +193,13 @@
 
 @media screen and (max-width: 558px) {
   .exp_page_title {
-    padding: 18% 1% 5% 1%;
+    padding: 20% 1% 5% 1%;
   }
 }
 
   @media mobile and (max-width:500px) {
     .exp_page_title {
-      padding: 23% 1% 5% 1%;
+      padding: 26% 1% 5% 1%;
     }
 }
 
