@@ -227,9 +227,13 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 1058px) {
+@media screen and (max-width: 558px) {
   .intro_text_area {
       margin: 3% 4% 0 30%;
+  }
+
+  .intro_top_div {
+    padding-bottom: 12%;
   }
 }
 
