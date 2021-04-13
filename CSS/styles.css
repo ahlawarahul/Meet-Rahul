@@ -1,5 +1,5 @@
 * {
-  border: solids 1px;
+  border: solid 1px;
 }
 
 a:link {
@@ -505,7 +505,7 @@ a:visited {
   .tenets_h3 {
     margin: auto 7% auto auto;
     text-align: right;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
   }
 }
 
