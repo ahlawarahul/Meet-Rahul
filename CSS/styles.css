@@ -166,8 +166,8 @@ a:visited {
   position: relative;
   float: left;
   width: 20%;
-  padding-top: 1%;
-  padding-left: 2%;
+  margin-top: 3%;
+  margin-left: 2%;
 }
 
 .intro_text_area {
@@ -220,6 +220,16 @@ a:visited {
 
   .intro_image {
     width: 30%;
+  }
+
+  .intro_text_area {
+    margin: 3% 7% 0 28%;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .intro_text_area {
+      margin: 3% 4% 0 30%;
   }
 }
 
