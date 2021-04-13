@@ -501,7 +501,7 @@ a:visited {
   }
 
   .tenets_image {
-    max-width: 250px;
+    max-width: 200px;
     max-height: auto;
     margin: auto;
     padding: 3% 0 2% 0;
@@ -515,7 +515,7 @@ a:visited {
   }
 
   .tenets_image {
-    max-width: 150px;
+    max-width: 100px;
     max-height: auto;
     margin: auto auto 2% auto;
     padding: 2% 0 2% 0;
