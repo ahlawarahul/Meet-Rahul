@@ -1,0 +1,408 @@
+* {
+  border: solids 1px;
+}
+
+/*! ----- Title  ------ */
+.title_section {
+  background-color: #faf3e0;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.career_top_div {
+  text-align: center;
+}
+
+.exp_main_h1 {
+  margin: auto auto 3% auto;
+}
+
+/*! ----- Career & Work Section  ------ */
+.career_education_section {
+  background-color: #D6F6F0;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.career_education_bottom_div {
+  text-align: center;
+  margin: 2% 5% 2% 5%;
+  color: #595959;
+}
+
+.exp_header_div {
+  text-align: left;
+  margin-top: 4%;
+}
+
+.h3_type3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.exp_career_h3 {
+  color: #black;
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: 0 2% 0 0;
+}
+
+.exp_header_img {
+  position: relative;
+  margin: 0 0 0 0;
+  max-width: 50px;
+  max-height: auto;
+}
+
+.career_body_div {
+  text-align: left;
+  padding: 0 0 0 0;
+}
+
+.exp_row {
+  margin: 3% 0 4% 0;
+}
+
+.exp_hr_small_screen {
+  display: none;
+}
+
+.h3_type4 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.exp_left_p_text {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.career_deloitte_img {
+  margin: 2% 0 2% 0;
+  max-width: 70px;
+  max-height: auto;
+}
+
+.career_techm_img {
+  margin: 2% 0 2% 0;
+  max-width: 90px;
+  max-height: auto;
+}
+
+.exp_right_p_text {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin: auto;
+}
+
+.exp_add_info {
+  text-align: left;
+  margin: 2% auto auto 0;
+}
+
+.exp_icon_loc, .exp_icon_link {
+  display: inline;
+  color: #00BAC8;
+  vertical-align:middle;
+}
+
+.exp_icon_loc {
+ padding: 0 2.5px 0 1px;
+}
+
+.exp_bottom_p_text {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin: auto auto 2% auto;
+  display: inline;
+  color: #7F7F7F;
+}
+
+@media screen and (max-width: 1058px) {
+  .h3_type3 {
+    font-size: 1.5rem;
+  }
+
+  .exp_header_img {
+    max-width: 45px;
+    max-height: auto;
+  }
+
+  .h3_type4 {
+    font-size: 1.2rem;
+  }
+
+  .exp_left_p_text, .exp_right_p_text {
+    font-size: 1rem;
+  }
+
+  .exp_bottom_p_text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title_section {
+    padding: 6% 2% 5% 2%;
+  }
+
+  .exp_header_div, .career_body_div {
+    text-align: center;
+  }
+
+  .exp_hr_small_screen {
+    display: block;
+  }
+
+  .exp_career_h3 {
+    text-align: center;
+    margin: 0 2% 1% 2%;
+  }
+
+  .exp_left_p_text, .exp_right_p_text {
+    font-size: 0.85rem;
+  }
+
+  .career_deloitte_img {
+    max-width: 55px;
+    max-height: auto;
+  }
+
+  .career_techm_img {
+    max-width: 80px;
+    max-height: auto;
+  }
+
+  .career_rank_edu_school{
+    margin-top: 2%;
+  }
+}
+
+/*! ----- Skills Section  ------ */
+.skills_section {
+  background-color: #faf3e0;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.skills_business_div {
+  text-align: left;
+  margin: 2% 5% 2% 5%;
+  color: #595959;
+}
+
+.exp_subheader {
+  margin: 3% 0 2% 0;
+}
+
+.skills_body_div {
+  text-align: left;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.skill_row {
+  margin: 1% 0 0.5% 0;
+}
+
+.skill_item_row {
+  margin: 0 2% 0 0%;
+  padding: 0 0 0 0;
+}
+
+.skill_item_left {
+  margin: 0 1% 0 0;
+  padding: 0 0 0 0;
+}
+
+.skill_item_right {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 40%;
+  font-size: 1.4rem;
+  position: relative;
+  bottom:3px;
+}
+
+.skills_item_p_text {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: auto;
+  padding: 0 0 0 0;
+  display: inline-block;
+  color: #595959;
+}
+
+.skill_full_icon {
+  display: inline;
+  color: #00BAC8;
+}
+
+.skill_empty_icon {
+  display: inline;
+  color: #00BAC8;
+}
+
+.exp_hr_mod {
+  margin-top: 5%;
+  position: relative;
+  right: 5%;
+}
+
+@media screen and (max-width: 1058px) {
+  .skills_item_p_text {
+    font-size: 1rem;
+  }
+
+  .skill_item_right {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .skill_item_left {
+    width: 65%;
+    margin: 1% 1% 1% 1%;
+  }
+
+  .skill_item_right {
+    width: 30%;
+    margin: 1% 1% 1% 1%;
+    font-size: 0.9rem;
+  }
+  .exp_hr_mod {
+    right: 2%;
+  }
+
+  .exp_subheader {
+    margin: 7% 0 7% 0;
+  }
+}
+
+
+
+.skills_technical_div {
+  text-align: left;
+  margin: 0 5% 2% 5%;
+  color: #595959;
+}
+
+.skills_tools_div{
+  text-align: left;
+  margin: 0 5% 2% 5%;
+  color: #595959;
+}
+
+/*! ----- Certifications Part  ------ */
+
+.cert_row {
+  margin: 2% 0 0.5% 0;
+  text-align: center;
+}
+
+.cert_item {
+  margin: 1% 2.3% 1% 2.3%;
+  padding: 3% 0 2% 0;
+  position:relative;
+  text-align: center;
+  background-color: #D6F6F0;
+  width: 40%;
+}
+
+.cert_img_container {
+  max-width: 70px;
+  height: 77px;
+  margin: auto auto 1% auto;
+}
+
+.cert_img {
+  position: relative;
+  margin: auto;
+  width: 70px;
+  height: auto;
+  display: block;
+}
+
+.aws_img {
+  width: 80px;
+}
+
+.cert_link:hover{
+  color: #00BAC8;
+}
+
+.azure_cert {
+  width: 1000px;
+  height: auto;
+  text-align: center;
+  margin:auto;
+  pointer-events: none;
+}
+
+
+/*! ----- Education Section  ------ */
+
+.education_IU_img {
+  margin: 2% 0 2% 0;
+  max-width: 60px;
+  max-height: auto;
+}
+
+.education_PU_img {
+  margin: 2% 0 2% 0;
+  max-width: 90px;
+  max-height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .education_IU_img {
+    max-width: 50px;
+    max-height: auto;
+  }
+
+  .education_PU_img {
+    max-width: 70px;
+    max-height: auto;
+  }
+
+  .edu_p_text {
+    margin-top: 7%;
+  }
+
+  .cert_item {
+    width: 90%;
+    padding
+  }
+
+}
+
+/*! ----- Languages Section  ------ */
+.languages_section {
+  background-color: #faf3e0;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.languages_div{
+  margin: 4% auto auto auto;
+}
+
+.lang_item_left{
+  width: 55%;
+  position: relative;
+  top: 0;
+}
+
+.lang_item_right {
+  position: relative;
+  top: 1px;
+}
