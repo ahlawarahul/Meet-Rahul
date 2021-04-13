@@ -126,19 +126,19 @@ a:visited {
 
   .title_subheader {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 770px) {
   .title_name {
-    font-size: 1.8rem;
+    font-size: 2rem;
     width: 50%;
   }
 
   .title_subheader {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -206,7 +206,7 @@ a:visited {
 
 @media screen and (max-width: 1058px) {
   .h1_type1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .p_text_intro {
@@ -284,7 +284,7 @@ a:visited {
 
 .work_area_item_top_txt {
   color: #FFF2CC;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 6400;
   padding-top: 10px;
@@ -347,7 +347,7 @@ a:visited {
 
   .work_area_item_top_txt {
     color: #D6F6F0;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .work_area_item_top_img {
@@ -401,10 +401,9 @@ a:visited {
 }
 
 .tenets_h3 {
-  margin: auto;
+  margin: auto 2% auto auto;
   text-align: right;
   padding-bottom: 4%;
-  margin-right: 2%;
 }
 
 .tenets_img_div {
@@ -471,15 +470,15 @@ a:visited {
 
 @media screen and (max-width: 1058px) {
   .h1_type2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .h3_type2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .p_text_tenets {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -500,6 +499,12 @@ a:visited {
     max-width: 150px;
     max-height: auto;
     margin: auto auto 2% auto;
+  }
+
+  .tenets_h3 {
+    margin: auto 4% auto auto;
+    text-align: right;
+    padding-bottom: 4%;
   }
 }
 
@@ -594,7 +599,7 @@ a:visited {
 .values_card_h3 {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-top: 6%;
 }
 
@@ -625,7 +630,7 @@ a:visited {
 
 @media screen and (max-width: 1058px) {
   .values_card_h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .values_img {
