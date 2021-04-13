@@ -1,5 +1,5 @@
 * {
-  border: solid 1px;
+  border: solids 1px;
 }
 
 a:link {
@@ -332,6 +332,11 @@ a:visited {
   max-height: auto;
 }
 
+.largescreenviewonly {
+  position: relative;
+  top: 40px;
+  right: 15px;
+}
 .smallscreenviewonly {
   display: none;
 }
