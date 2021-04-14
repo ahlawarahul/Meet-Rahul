@@ -416,22 +416,47 @@
 
     </div>
 
+    <!-- Modal popups for projects -->
+
     <div class="modal fade" id="Project_Example1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Project 1 Title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-header project_info_header">
+            <h5 class="modal-title" id="exampleModalLabel">Telecom BSS Modernization</h5>
+            <button type="button" class="btn-close btn_mod" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            Project Details
-            • Led a large-scale program to optimize a top-3 US Health Insurance Org’s corporate IT costs, targeted to save >$10M per year through modernization of the business IT applications stack, restructuring 30+ business processes, 20+ systems
-            and 15+ business & technology teams, vendors. Led a team of 15+ on current state technology & operational process assessment, future strategy and roadmap definition and alignment with Executive leadership on a strategic plan impacting
-            >12M subscribers.
+          <div class="modal-body project_info_container">
+              <!--<img class="project_detail_img" src="CSS/Images/Network_Back1.jpg" alt="Project Example Img">-->
+            <div class="project_info_text">
+              <div class="project_modal_text_section1">
+                <h3 class="project_detail_h3">Industry</h3>
+                <p class="project_detail_p_text">Telecommunications</p>
+              </div>
+              <div class="project_modal_text_section2">
+                <h3 class="project_detail_h3">Business Context</h3>
+                <p class="project_detail_p_text">The organization wanted to modernize the technology of a multitude of it's business-supporting technology functions, including Customer Frontend, Billing, Finance, Middleware, Fulfilment, etc. The objective was to save on
+                  costs to manage these applications, while supporting faster Go to Market (GTM) for new products and services.</p>
+              </div>
+              <div class="project_modal_text_section1">
+                <h3 class="project_detail_h3">Key Challenge</h3>
+                <p class="project_detail_p_text">Ability to meet the business-defined timelines to complete the change. The various engineering teams were setup for small-scale changes but not such a large-scale initiative.</p>
+              </div>
+              <div class="project_modal_text_section2">
+                <h3 class="project_detail_h3">Applied Efforts</h3>
+                <p class="project_detail_p_text">Setup and manage a central program office and org structure to drive various aspects of the delivery and management of the overall program and change. This included building and facilitating coordination between the
+                  various engineering teams (including third-party vendors), product owners/business process owners, marketing, finance and other key functions to ensure necessary and timely collaboration on requirements, change intake,
+                  delivery/release planning, architecture & design, various decisions, risks, dependencies, and issues. The program office also conducted necessary reporting across all levels, providing visibility to the leadership and the individual
+                  teams on progress and key risks/issues.</p>
+              </div>
+              <div class="project_modal_text_section3">
+                <h3 class="project_detail_h3">Result</h3>
+                <p class="project_detail_p_text">Effective program management led to this key initiative meeting its planned timelines as well as reducing the overall expected technology costs by $20M p.a., and the time to release new products by 33%.</p>
+              </div>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#Project_Example2" data-bs-toggle="modal" data-bs-dismiss="modal">See another example</button>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <div class="modal-footer project_info_footer">
+            <button class="btn btn-primary proj_detail_btn1 next_example_button" data-bs-target="#Project_Example2" data-bs-toggle="modal" data-bs-dismiss="modal">See another example</button>
+            <button type="button" class="btn proj_detail_btn1 close_button" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
