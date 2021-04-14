@@ -1278,7 +1278,7 @@ background-size: cover;
 }
 
 .contact_p_text1 {
-  color: #595959;
+  color: #D6F6F0;
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
@@ -1367,4 +1367,10 @@ background-size: cover;
   font-size: 0.6rem;
   text-align: right;
   margin: 0 2% 0 0;
+}
+
+@media screen and (max-width: 558px) {
+  .contact_p_text1 {
+color: #595959;
+  }
 }
