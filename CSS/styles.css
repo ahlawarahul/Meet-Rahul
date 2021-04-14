@@ -952,14 +952,18 @@ a:visited {
 }
 
 .experience_container_div {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-top: 2%;
+
 }
 
 .experience_left_div {
-  text-align: left;
+  text-align: center;
   padding-top: 3%;
+  position: relative;
+    margin: auto 2% auto 0;
+
 }
 
 .p_text_experience_main {
@@ -1037,6 +1041,12 @@ a:visited {
 .experience_right_div {
   text-align: center;
   background-color: #D6F6F0;
+
+}
+
+.col-lg-3-5, .col-md-3-5 {
+  flex: 0 0 auto;
+  width: 30%;
 }
 
 .experience_right_div_alt {
