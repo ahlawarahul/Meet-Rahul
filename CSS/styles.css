@@ -232,9 +232,9 @@ a:visited {
 }
 
 @media screen and (max-width: 558px) {
-.intro_top_div {
-  text-align: auto;
-}
+  .intro_top_div {
+    text-align: auto;
+  }
 
   .intro_h1 {
     margin: auto auto 3% auto;
@@ -617,19 +617,11 @@ a:visited {
 
 /*! ----- My Core Values Page  ------ */
 .page5_values_section {
-  background-color: #0F3057;
+  background-image: url("./Images/oriental-tiles.png");
+  background-repeat: repeat;
+  background-size: 15%;
   padding-top: 4%;
   padding-bottom: 5%;
-}
-
-.values_bg_img {
-  position: absolute;
-  padding-top: 10%;
-  padding-left: 15%;
-  max-width: 70%;
-  max-height: auto;
-  margin: auto;
-  display: none;
 }
 
 .values_h1 {
@@ -643,6 +635,8 @@ a:visited {
   text-align: center;
   padding-bottom: 4%;
 }
+
+.values_main_div {}
 
 .values_card_body {
   padding: 0 0 0 0;
@@ -693,10 +687,20 @@ a:visited {
     font-size: 1.3rem;
   }
 
+  .page5_values_section {
+    background-size: 20%;
+  }
+
   .values_img {
     max-width: 70px;
     max-height: 77px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .page5_values_section {
+    background-size: 40%;
   }
 }
 
@@ -955,15 +959,13 @@ a:visited {
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2%;
-
 }
 
 .experience_left_div {
   text-align: center;
   padding-top: 3%;
   position: relative;
-    margin: auto 2% auto 0;
-
+  margin: auto 2% auto 0;
 }
 
 .p_text_experience_main {
@@ -1041,7 +1043,6 @@ a:visited {
 .experience_right_div {
   text-align: center;
   background-color: #D6F6F0;
-
 }
 
 .col-lg-3-5, .col-md-3-5 {
