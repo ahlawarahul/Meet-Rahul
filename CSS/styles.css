@@ -982,16 +982,16 @@ background-size: cover;
 .project_info_container {
   padding: 0 0 0 0;
   text-align: center;
-  background-image: url("./Images/Network_Back1.jpg");
   background-repeat: repeat;
   background-size: 70%;
 }
 
-.project_detail_img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
+.telco_BG {
+    background-image: url("./Images/Network_Back1.jpg");
+}
+
+.insurance_BG {
+    background-image: url("./Images/Strategy.jpg");
 }
 
 .project_info_text {
