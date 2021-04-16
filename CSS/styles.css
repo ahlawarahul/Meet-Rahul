@@ -76,7 +76,11 @@ a:visited {
 .title_div {
   height: auto;
   position: relative;
-  padding: 0;
+  padding: 0 0 25% 0;
+  background-image: url("Images/Title_BG.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .title_background {
@@ -88,7 +92,7 @@ a:visited {
 
 .title_page_text {
   color: #A3EBDD;
-  position: absolute;
+
   padding-left: 3%;
   padding-top: 20%;
   padding-right: 3%
@@ -109,7 +113,7 @@ a:visited {
 }
 
 .title_text_breaker {
-  width: 120%;
+  width: 40%;
   color: #FFD966;
 }
 
@@ -119,11 +123,15 @@ a:visited {
   }
 
   .title_text_breaker {
-    width: 80%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 770px) and (max-width: 1058px) {
+  .title_div {
+    padding: 0 0 20% 0;
+  }
+
   .title_name {
     font-size: 2.2rem;
     width: 50%;
@@ -135,7 +143,11 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen   and (max-width: 770px) {
+  .title_div {
+    padding: 0 0 20% 0;
+  }
+
   .title_name {
     font-size: 2rem;
     width: 50%;
@@ -145,6 +157,12 @@ a:visited {
     width: 100%;
     font-size: 1.3rem;
   }
+}
+
+@media screen and (max-width: 558px) {
+.title_div {
+  padding: 0 0 10% 0;
+}
 }
 
 /*! ----- Intro_Page_Top Section  ------ */
