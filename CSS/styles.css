@@ -1029,6 +1029,12 @@ a:visited {
   background-repeat: none;
 }
 
+.lab_BG {
+  background-image: url("./Images/Lab2.jpg");
+  background-size: 100%;
+  background-repeat: none;
+}
+
 .project_info_text {
   padding: 5% 1% 2% 1%;
   width: 90%;
