@@ -1023,16 +1023,21 @@ a:visited {
   background-repeat: none;
 }
 
-.sup_BG {
-  background-image: url("./Images/Tech_Support.png");
+.sup_BG, .lab_BG, .Manufacturing_BG {
   background-size: 100%;
   background-repeat: none;
 }
 
+.sup_BG {
+  background-image: url("./Images/Tech_Support.png");
+}
+
 .lab_BG {
   background-image: url("./Images/Lab2.jpg");
-  background-size: 100%;
-  background-repeat: none;
+}
+
+.Manufacturing_BG {
+  background-image: url("./Images/Manufact.jpg");
 }
 
 .project_info_text {
