@@ -1,15 +1,21 @@
 // Code to minimize Navbar button after clicking on a dropdown link (only to work in small screen when navbar buttonn shows up)
-for (i = 0; i < document.querySelectorAll(".navbar_itemx").length; i++) {
-  document.querySelectorAll(".navbar_itemx")[i].addEventListener("click",
-    function() {
-      var navbutton_status = document.querySelector(".navbuttonx").getAttribute("aria-expanded");
-      //  console.log(navbutton_status);
-      if (navbutton_status == "true") {
-        setTimeout(function() {
-          document.querySelector(".navbuttonx").click()
-        }, 100);
-      }
-      //  console.log(document.querySelector(".navbuttonx"));
+
+
+$(".navbar_itemx").on("click", function() {
+  var navbutton_status = $(".navbuttonx").attr("aria-expanded");
+  if (navbutton_status == "true") {
+    setTimeout(function() {
+      $(".navbuttonx").click()
+    }, 100);
+
+    if (this.getAttribute("href") != "#Contact_Me") {
+      var offset = $(this.getAttribute("href")).offset();
+      $('html, body').animate({
+        scrollTop: offset.top - 70,
+        scrollLeft: offset.left
+      }, 200);
     }
-  );
-}
+
+  }
+
+});
